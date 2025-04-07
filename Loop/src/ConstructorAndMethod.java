@@ -1,4 +1,4 @@
-public class Constructor {
+public class ConstructorAndMethod {
     public static void main(String[] args) {
         // Constructor initializes the object
         Example obj = new Example("Alice", 25);
@@ -17,7 +17,7 @@ public class Constructor {
         public int age;
 
         // Constructor (No 'void')
-         Example(String name, int age) {
+        public Example(String name, int age) {
             this.name = name; // Initializes the object
             this.age = age;
         }

@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class ReversePrint {
+public class ReverseWord {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Reverse app:\n");
         System.out.println("Please enter word: ");
         String word = input.nextLine();
 
-        //passing argument to function
+        //passing input argument to function
         String reverseWord = reverseWord(word);
         System.out.println("Reversed word: " + reverseWord);
     }
